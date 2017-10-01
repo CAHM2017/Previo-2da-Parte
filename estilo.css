@@ -1,0 +1,186 @@
+/*Inicio de configuración de barra de navegación*/
+#cabecera{
+	background: #1066D8;
+}
+
+#titulo{
+	color: white;
+	text-align: left;
+	margin: 0;
+    overflow: hidden;
+	float: left;
+	display: block;
+	padding: 8px 16px;
+}
+
+#menu{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li{
+	float: right;
+}
+
+li a{
+	color: white;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background: #14CAC1;
+}
+/*Fin configuración de barra de navegación*/
+
+/*Configuración imagen banner*/
+.banner{
+	margin: 0;
+	padding: 0;
+	align: center;
+}
+/*Fin configuración banner*/
+
+/*Configuración listado titulo*/
+.listadoTitulo h2{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: Comic Sans MS;
+	color: gray;
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+/*Fin listado titulo*/
+
+/*Configuración productos*/
+.productos{
+	background-color: #706b64;
+	box-shadow: 0px 2px 5px #1c1a19;
+	width: 235px;
+	position: relative;
+	border: solid black;
+	display: inline-block;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.productos p{
+	text-align: center;
+	color: white;
+}
+
+button{
+	margin-left: 60px;
+}
+/*Fin configuración productos*/
+
+/*Configuración instrucciones de compra*/
+.instruccion{
+	
+	width: 235px;
+	position: relative;
+	display: inline-block;
+	horizontal-align: top;
+	margin-left: 150px;
+	margin-bottom: 20px;
+}
+
+.instruccion p{
+	text-align: center;
+}
+
+#pregunta{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: Comic Sans MS;
+	color: gray;
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+/*Fin configuración instrucciones*/
+
+body{
+	background-color: #CAFEFF; /*Color de fondo*/
+}
+
+/*Configuración articulo*/
+aside p{
+	padding-right: 1em;
+}
+/*fin*/
+
+/*Pie de página*/
+.pie{
+	margin-top: 8em;
+	background: white;
+}
+footer img{
+	display: block;
+	float: left;
+	padding: 14px 16px;
+}
+
+footer p{
+	text-align: right;
+}
+/*Fin index/
+
+/*Registro*/
+header h1{
+	text-align: center;
+	font-family: comic sans MS;
+	padding-top: 7em;
+}
+
+form{
+	padding-top: 4em;
+	background: #B0D2CA;
+}
+
+label{
+	display: inline-block;
+	width: 580px;
+	text-align: right;
+}
+
+form div+div{
+	margin-top: 1em;
+}
+
+textarea{
+	vertical-align: top;
+	height: 10em;
+}
+
+input, textarea{
+	width: 300px;
+}
+
+form button{
+	margin-left: 50em;
+}
+/*fin*/
+
+.lista ul{
+	list-style-type: none;
+	text-align: right;
+}
+
+.lista li{
+	display: inline;
+    text-align: right;
+}
+
+.compras button{
+	margin-top: 5em;
+}
+
+input, button{
+	margin-top: 5em;
+}
